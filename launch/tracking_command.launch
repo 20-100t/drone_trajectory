@@ -1,0 +1,8 @@
+<launch>
+
+  <group ns="droneCommand">
+    <node pkg="trajectory_sender" name="pos_command_in" type="pos_command_in.py"/>
+    <node pkg="trajectroy_sender" name="trajectory" type="trajectory.py"/>
+  </group
+
+</launch>
